@@ -1,0 +1,16 @@
+{
+  "name": "telegram_ec2_bot",
+  "version": "1.0.0",
+  "description": "A telegrambot for start or stop an amazon ec2 instance",
+  "main": "app.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.27.0",
+    "aws-sdk": "^2.32.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
