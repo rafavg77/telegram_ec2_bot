@@ -1,6 +1,7 @@
 var token = '<TELEGRAM_BOT_KEY>';
 var Bot = require('node-telegram-bot-api');
 var AWS = require('aws-sdk');
+var permit = <telegramid>;
 
 AWS.config.loadFromPath('./config.json');
 
@@ -11,8 +12,6 @@ var params = {
   InstanceIds: ['<Instance-ec2-ID>'],
   DryRun: false
 };
-
-var permit = 32268671;
 
 bot = new Bot(token,{polling : true});
 
